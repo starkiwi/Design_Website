@@ -1,0 +1,36 @@
+.wrapper {
+    padding-top: 4em;
+}
+
+button {
+    display: flex;
+    font-size: 1.2em;
+    align-self: center;
+    margin: 3% auto 0 auto;
+}
+
+.card {
+    border: 0.25em dashed #dd924e;
+    float: right;
+    margin: 0 1em 5em 9em;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: fit-content;
+    padding: 2%;
+
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
+#sources {
+    li {
+        padding: 0.5em 0;
+    }
+}
+
+hr {
+    margin-top: 26%;
+}

@@ -1,0 +1,76 @@
+#hero {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.layer-1 {
+    background-image: url("principles_parallax/principles_parallax_image_0001_level1.png");
+    background-position: bottom center;
+    bottom: -6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-2 {
+    background-image: url("principles_parallax/principles_parallax_image_0002_level2.png");
+    background-position: bottom center;
+    bottom: -6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-3 {
+    background-image: url("principles_parallax/principles_parallax_image_0003_level3.png");
+    background-position: bottom center;
+    bottom: -6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-4 {
+    background-image: url("principles_parallax/principles_parallax_image_0004_light-text.png");
+    background-position: top center;
+    bottom: -17em;
+    background-size: 54%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-5 {
+    background-image: url("principles_parallax/principles_parallax_image_0005_shadow-text.png");
+    background-position: top center;
+    bottom: -17em;
+    background-size: 56%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-6 {
+    background-image: url("principles_parallax/principles_parallax_image_0006_back.png");
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}

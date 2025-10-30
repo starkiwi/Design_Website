@@ -1,0 +1,63 @@
+#red {
+    font-size: 1.7em;
+    padding: 1em;
+    color: red;
+}
+
+#orange {
+    font-size: 1.7em;
+    padding: 1em;
+    color: orange;
+}
+
+#yellow {
+    font-size: 1.7em;
+    padding: 1em;
+    color: goldenrod;
+}
+
+#green {
+    font-size: 1.7em;
+    padding: 1em;
+    color: green;
+}
+
+#blue {
+    font-size: 1.7em;
+    padding: 1em;
+    color: blue;
+}
+
+#purple {
+    font-size: 1.7em;
+    padding: 1em;
+    color: purple;
+}
+
+#pink {
+    font-size: 1.7em;
+    padding: 1em;
+    color: hotpink;
+}
+
+#brown {
+    font-size: 1.7em;
+    padding: 1em;
+    color: brown;
+}
+
+#black {
+    font-size: 1.7em;
+    padding: 1em;
+    color: black;
+}
+
+#white {
+    font-size: 1.7em;
+    padding: 1em;
+    color: white;
+    text-shadow: 1px 1px 0 #000,
+            -1px 1px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000;
+}

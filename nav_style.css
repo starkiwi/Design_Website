@@ -1,0 +1,28 @@
+nav {
+    box-shadow: 1em 0 1em 0.5em rgba(0, 0, 0, 0.2);
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        /*border: dashed 0.2em rgba(175,130,92,0.54);*/
+    }
+    ul li {
+        float: left;
+    }
+    ul li a {
+        font-size: 1.15em;
+        color: #f8eee7;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 1.3em 4em;
+    }
+}
+
+#current {
+    color: #F93F3F;
+    opacity: 0.65;
+}

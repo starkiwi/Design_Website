@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		  content="Welcome/About page of my Typography Website">
+	<meta name="author" content="Kieran Reid">
+	<title>About</title>
+	<link rel="stylesheet" href="universal_style.css">
+	<link rel="stylesheet" href="nav_style.css">
+	<link rel="stylesheet" href="about_parallax.css">
+	<link rel="stylesheet" href="about_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oldenburg&display=swap"
+		  rel="stylesheet">
+</head>
+<body>
+<header>
+	<div id="hero">
+		<div class="layer-6" data-type="parallax" data-depth="0.10"></div>
+		<div class="layer-5" data-type="parallax" data-depth="0.30"></div>
+		<div class="layer-4" data-type="parallax" data-depth="0.40"></div>
+		<div class="layer-3" data-type="parallax" data-depth="0.60"></div>
+		<div class="layer-2" data-type="parallax" data-depth="0.80"></div>
+		<div class="layer-1" data-type="parallax" data-depth="1.00"></div>
+	</div>
+	<a href="#" id="to_top"></a>
+</header>
+<nav id="nav_bar">
+	<ul>
+		<li>
+			<a href="index.html" id="current"><b>About</b></a>
+		</li>
+		<li>
+			<a href="typography.html"><b>Typography</b></a>
+		</li>
+		<li>
+			<a href="colour.html"><b>Colour</b></a>
+		</li>
+		<li>
+			<a href="principles.html"><b>Principles</b></a>
+		</li>
+	</ul>
+</nav>
+<div id="base">
+	<div class="wrapper">
+		<div class="card">
+			<img src="../typography_website/images/kieran_gamla.jpg"
+				 alt="Kieran Reid" width="250">
+			<div class="container">
+				<h3><b>Kieran Reid</b></h3>
+				<p>Interactive Media Designer</p>
+			</div>
+		</div>
+
+		<h2>Welcome!</h2>
+		<p>This website is about web design, created by Kieran Reid as a
+			student
+			project for ARTD 245: Web Design at North Central College in
+			Naperville, IL, in 2025. All the text comes
+			from the following articles. All
+			the
+			images were created by me using Procreate, Photoshop, and
+			Illustrator.
+			The website has been created using HTML, CSS, and JavaScript in PHP
+			Storm.
+		</p>
+		<p><i>Use the above navigation to explore the website.</i></p>
+		<button type="button"
+				onclick="window.open('https://github.com/', '_blank')">Click
+			here to explore the code!
+		</button>
+
+		<hr>
+		<h2>Articles and Inspiration</h2>
+		<ul id="sources">
+			<li>
+				<a
+						href="https://dribbble.com/stories/2020/08/17/choosing-typography-for-web-design">https://dribbble.com/stories/2020/08/17/choosing-typography-for-web-design
+				</a>
+			</li>
+			<li>
+				<a
+						href="https://dribbble.com/stories/2018/12/19/choosing-colors-for-web-design-a-practical-ui-color-application-guide">https://dribbble.com/stories/2018/12/19/choosing-colors-for-web-design-a-practical-ui-color-application-guide</a>
+			</li>
+			<li>
+				<a href="https://dribbble.com/resources/principles-of-design">https://dribbble.com/resources/principles-of-design</a>
+			</li>
+			<li>
+				<a
+						href="https://www.flux-academy.com/blog/the-ultimate-guide-to-choosing-fonts"
+						target="blank">
+					https://www.flux-academy.com/blog/the-ultimate-guide-to-choosing-fonts</a>
+			</li>
+			<li>
+				<a
+						href="https://www.flux-academy.com/blog/ultimate-guide-to-choosing-colors-for-web-design">https://www.flux-academy.com/blog/ultimate-guide-to-choosing-colors-for-web-design</a>
+			</li>
+			<li>
+				<a
+						href="https://medium.com/@patrickwestwood/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27">https://medium.com/@patrickwestwood/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<footer>
+	<br>
+</footer>
+
+<!--code for parallax animation adapted from Patrick Westwood on Medium found
+ at https://medium.com/@patrickwestwood/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27-->
+<script src="parallax.js"></script>
+<script src="to_top.js"></script>
+</body>
+</html>
